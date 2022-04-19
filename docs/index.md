@@ -1,23 +1,31 @@
-#Overview
-This repository list the documentation of all the projects developed by Sol Beauty and Care
-<ul>
-    <li><a href="#shop-service"> Shop Service (Fastapi Python)</a></li>
-    <li><a href="#"> Shop App (Flutter)</a></li>
-</ul>
+<div id="top"></div>
+<details>
+    <summary>Table of Contents</summary>
+    <ol>
+        <li>
+            <a href="#shop-service">Shop Service</a>
+            <ul>
+                <li><a href="#shop-service-setup">Setup</a></li>
+                <li><a href="#shop-service-api-documentation">Api Documentation</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#mobile-shop-app">Mobile Shop App</a>
+            <ul>
+                <li><a href="#mobile-shop-app-setup">Setup</a></li>
+                <li><a href="#mobile-shop-app-api-documentation">Api Documentation</a></li>
+            </ul>
+        </li>
+    </ol>
+</details>
 
+<!-- ABOUT THE PROJECT -->
+## Shop Service
 
-##Projects
+This service is an api of our **store**, mainly focused on the products and all the items related to them. Written in Python using Fastapi, providing developers with a more easy and fast setup to new projects.
 
-<div id="shop-service">
-    <h3>Shop Service</h3>
-    <p>
-        This service is an api of our **store**, mainly focused on the products and all the
-        items related to them.
-        Written in Python using Fastapi, providing developers with a more easy 
-        and fast setup to new projects.
-    </p>
-
-#### Project setup
+<!-- PROJECT SETUP -->
+### Shop Service Setup
 Follow the next steps to set up and run the project.
 ```bash
 # Copy the example .env file and configure it.
@@ -29,6 +37,9 @@ $ cp .env.example .env
 $ docker compose up --build -d
 ```
 
-#### Api documentation
-Open [documentation](http://localhost:8008/docs) for detailed information about the endpoints.
-</div>
+<!-- OPENAPI DOCUMENTATION -->
+### Shop Service Api Documentation
+Open [documentation](http://api.sbc.mx:5000/docs) for detailed information about the endpoints.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
