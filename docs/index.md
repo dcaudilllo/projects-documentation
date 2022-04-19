@@ -6,6 +6,7 @@
             <a href="#shop-service">Shop Service</a>
             <ul>
                 <li><a href="#shop-service-setup">Setup</a></li>
+                <li><a href="#shop-service-stack">Stack</a></li>
                 <li><a href="#shop-service-api-documentation">Api Documentation</a></li>
             </ul>
         </li>
@@ -23,6 +24,12 @@
 ## Shop Service
 
 This service is an api of our **store**, mainly focused on the products and all the items related to them. Written in Python using Fastapi, providing developers with a more easy and fast setup to new projects.
+
+### Shop Service Stack
+<ul>
+    <li><a href="https://fastapi.tiangolo.com/">Fastapi</a></li>
+    <li><a href="https://shopify.dev/api/storefront">Shopify Storefront</a></li>
+</ul>
 
 <!-- PROJECT SETUP -->
 ### Shop Service Setup
